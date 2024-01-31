@@ -1,0 +1,50 @@
+@keyframes bg {
+    0% {
+        background-color: #fff;
+    }
+
+    25% {
+        background-color: #f00;
+    }
+
+    50% {
+        background-color: #0f0;
+    }
+
+    75% {
+        background-color: #00f;
+    }
+
+    100% {
+        background-color: #ff0;
+    }
+
+}
+
+
+:root {
+    --animation-length: 1000ms
+}
+
+#contents {
+    transition: all 10ms;
+    height: 100%;
+    align-content: center;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+body {
+    background-color: #000;
+    animation: bg var(--animation-length) ease-out 0s infinite;
+}
+
+.sddl {
+    transition: all 100ms;
+    width: 1%;
+}
+
+.sddl:hover {
+    width: 100%;
+}
