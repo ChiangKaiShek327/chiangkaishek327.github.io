@@ -1,14 +1,17 @@
 @keyframes bg {
     0% {
         background-color: #fff;
+
     }
 
     25% {
         background-color: #f00;
+
     }
 
     50% {
         background-color: #0f0;
+
     }
 
     75% {
@@ -16,11 +19,26 @@
     }
 
     100% {
-        background-color: #ff0;
+        background-color: #fff;
     }
 
 }
 
+@keyframes fc {
+    0% {
+        color: #fff0;
+
+    }
+
+    50% {
+        color: #ffff;
+    }
+
+    100% {
+        color: #fff0;
+    }
+
+}
 
 :root {
     --animation-length: 1000ms
@@ -33,11 +51,17 @@
     width: 100%;
     display: grid;
     place-items: center;
+    margin-bottom: 10%;
 }
 
 body {
     background-color: #000;
     animation: bg var(--animation-length) ease-out 0s infinite;
+}
+
+.bgp {
+    animation: bg var(--animation-length) ease-out 0s infinite reverse;
+
 }
 
 .sddl {
@@ -47,4 +71,5 @@ body {
 
 .sddl:hover {
     width: 100%;
+    rotate: 360;
 }
