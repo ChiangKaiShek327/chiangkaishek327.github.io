@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"io.github.chiangkaishek327.animatedfx"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"io.github.chiangkaishek327.animatedfx"},{"l":"io.github.chiangkaishek327.animatedfx.tabpane"}];updateSearchResults();
