@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"io.github.chiangkaishek327.animatedfx"},{"l":"io.github.chiangkaishek327.animatedfx.tabpane"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"io.github.chiangkaishek327.animated.animation"},{"l":"io.github.chiangkaishek327.animated.control.button"},{"l":"io.github.chiangkaishek327.animated.control.pane"},{"l":"io.github.chiangkaishek327.animated.control.tabpane"},{"l":"io.github.chiangkaishek327.animated.util"}];updateSearchResults();

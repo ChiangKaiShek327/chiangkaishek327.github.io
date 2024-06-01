@@ -1,2 +1,5 @@
-io.github.chiangkaishek327.animatedfx
-io.github.chiangkaishek327.animatedfx.tabpane
+io.github.chiangkaishek327.animated.animation
+io.github.chiangkaishek327.animated.control.button
+io.github.chiangkaishek327.animated.control.pane
+io.github.chiangkaishek327.animated.control.tabpane
+io.github.chiangkaishek327.animated.util
